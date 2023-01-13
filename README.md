@@ -67,10 +67,10 @@ The BD-001 has three power rails: +12V, +5V, and -12V in addition to GND. The ±
 The BD-001 Rev.3 PCB also features a connector for a [Eurorack style power connector](https://doepfer.de/a100_man/a100t_e.htm). This can be used to power the board externally in the event of a failure in the power system. However, this may cause the existing power regulators to overheat, and the longterm impact of this on the existing power system has not been studied, so it is not recommended for prolonged use without modifications to the circuit.
 
 #### Trigger Input
-The analogue trigger input allows to BD-001 to be triggered from a variety of external equipment generator positive voltage trigger signals, e.g., Eurorack modules or analogue drum machines such as the Roland TR-606 (20V 20ms). The drum voice will be triggered on the rising edge of a positive voltage pulse. This input is buffered through the op-amp U6. It has been tested with DC voltage up to 30V without damage, but the under ideal operating conditions, trigger pulses are expected to be short. In the event of a rogue input (high positive voltage, negative voltage, AC signal, etc.) damage will most likely be limited to U6 and potentially R2.
+The analogue trigger input allows to BD-001 to be triggered from a variety of external equipment generator positive voltage trigger signals, e.g., Eurorack modules or analogue drum machines such as the Roland TR-606 (20V 20ms). The drum voice will be triggered on the rising edge of a positive voltage pulse. This input is buffered through the op-amp `U6`. It has been tested with DC voltage up to 30V without damage, but the under ideal operating conditions, trigger pulses are expected to be short. In the event of a rogue input (high positive voltage, negative voltage, AC signal, etc.) damage will most likely be limited to `U6` and potentially `R2`.
 
 #### Microcontroller
-
+The BD-001 is compatible with the ATMEGA328 and other pin-compatible microcontrollers, such as the ATMEGA168A and ATMEGA168PV. It uses a 16MHz external crystal for the clock generation, so any pin-compatible chip that supports this clock generation method should be compatible. As described above, the microcontroller can be re-programmed via the ICSP header located on the PCB.
 
 
 
