@@ -3,7 +3,10 @@ This repository contains the public technical documentation for the Dolphin Labs
 
 ## Demonstration Material
 
-## User Manual
+## Owner's Manual
+The owner's manual for the BD-001 Hachimaru can be found in the `Owners_Manual` folder. The manual covers the basic operation of the BD-001, as well as the service notes also discussed in the readme.
+
+The owner's manual can also be downloaded directly from this link:
 
 ## Firmware
 
