@@ -3,6 +3,8 @@ This repository contains the public technical documentation for the Dolphin Labs
 
 ## Demonstration Material
 
+Sound demos for the BD-001 Hachimaru can be found on our [Soundcloud page](https://soundcloud.com/dolphin-labs/sets/bd-001-hachimaru-sound-demos).
+
 ## Owner's Manual
 The owner's manual for the BD-001 Hachimaru can be found in the `Owners_Manual` folder. The manual covers the basic operation of the BD-001, as well as the service notes also discussed in the readme.
 
