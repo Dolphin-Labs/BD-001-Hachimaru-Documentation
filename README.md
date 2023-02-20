@@ -78,7 +78,7 @@ The analogue trigger input allows to BD-001 to be triggered from a variety of ex
 The BD-001 is compatible with the ATMEGA328 and other pin-compatible microcontrollers, such as the ATMEGA168A and ATMEGA168PV. It uses a 16MHz external crystal for the clock generation, so any pin-compatible chip that supports this clock generation method should be compatible. As described above, the microcontroller can be re-programmed via the ICSP header located on the PCB.
 
 ## Contact Information
-Check the Dolphin Labs homepage [here](http://www.zefansramek.net/dolphin-labs.php).
+Check the Dolphin Labs homepage [here](http://zefansramek.net/dolphin-labs.php).
 
 Contact dolphin-labs@hotmail.com with any questions or concerns, or to order.
 
